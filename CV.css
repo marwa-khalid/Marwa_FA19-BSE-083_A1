@@ -66,6 +66,11 @@ li{
     padding: 5px;
     color: black;
 }
+
+body{
+	background-color:grey;
+}
+
 ul{
     margin: 10px;
     margin-left:50px;
