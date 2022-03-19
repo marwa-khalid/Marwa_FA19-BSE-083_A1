@@ -89,7 +89,6 @@ ul{
 footer{
     background-image: url(./back.jpg);
     background-size: cover;
-    align-items: center;
-    justify-content: center;
     text-align: center;
+	
 }
