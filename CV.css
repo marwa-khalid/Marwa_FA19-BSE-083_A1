@@ -17,7 +17,7 @@
 }
 
 .myPicture{
-    width: 400px;
+    width: 300px;
     background-color: rgba(73, 71, 71, 0.7);
     padding: 30px 0;
 }
@@ -29,7 +29,7 @@ img{
 }
 
 h1{
-    color: rgb(66, 66, 87);
+    color: rgba(199, 199, 212, 0.774);
 }
 h3{
     font-size: 2em;
@@ -45,13 +45,13 @@ span{
 
 .social-links a{
 	display: inline-block;
-	height: 30px;
+	height:30px;
 	width: 30px;
 	background-color: rgba(255,255,255,0.2);
-	margin:10px 10px 10px 0;
+	margin:10px;
 	text-align: center;
 	line-height: 30px;
-	border-radius: 50%;
+	border-radius: 80%;
 	color: #ffffff;
 }
 .social-links a:hover{
@@ -60,34 +60,54 @@ span{
 }
 
 li{
-    list-style-type:circle;
+    list-style-type:disc;
 }
 .container{
-    background-color: rgb(245, 240, 240);
-    margin-top: 5px;
-    padding: 15px;
-    border-radius: 50%;
+    padding: 5px;
     color: black;
 }
 ul{
     margin: 10px;
     margin-left:50px;
+    color: rgba(161, 161, 185, 0.596);
 }
 
 .row1{
     border: 1px solid black;
-    padding: 10px;
+    padding: 15px;
+    background-color: rgb(8, 8, 8);
+    color:rgba(199, 199, 212, 0.774);
+    border-radius: 50px;
+    padding: 25px;
 }
 .row2{
     border: 1px solid black;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: rgb(8, 8, 8);
+    color: rgba(199, 199, 212, 0.774);
+    border-radius: 50px;
+    padding: 25px;
 }
+
 .row3{
     border: 1px solid black;
-    padding: 5px;
+    padding: 15px;
+    margin-top: 5px;
+    background-color: rgb(8, 8, 8);
+    color: rgba(199, 199, 212, 0.774);
+    border-radius: 50px;
+    padding: 25px;
 }
 footer{
     background-image: url(./back.jpg);
     background-size: cover;
     text-align: center;
+}
+.social-links {
+	height: 30vh;
+	align-items: center;
+    justify-content: center;
+    text-align: center;
+	display: flex;
 }
